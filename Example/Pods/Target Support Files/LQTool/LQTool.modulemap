@@ -1,0 +1,6 @@
+framework module LQTool {
+  umbrella header "LQTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
