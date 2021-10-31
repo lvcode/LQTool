@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   #要传到cocopods的文件内容
   s.source_files = 'LQTool/Classes/**/*'
+  s.swift_versions = '4.0'
   #资源文件
   # s.resource_bundles = {
   #   'LQTool' => ['LQTool/Assets/*.png']
